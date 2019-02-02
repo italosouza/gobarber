@@ -1,9 +1,9 @@
 module.exports = {
   dialect: 'mysql',
   host: '127.0.0.1',
-  username: 'docker',
-  password: 'docker',
-  database: 'gonode2',
+  username: 'goBarber',
+  password: 'goBarber',
+  database: 'goBarber',
   operatorAlias: true,
   define: {
     timestamps: true,
