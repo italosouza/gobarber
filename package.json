@@ -4,15 +4,18 @@
   "description": "aplicação para agendamento de cortes de cabelo com express e sequelize",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js localhost 8080"
+    "start": "nodemon src/index.js localhost 8080 -e js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
     "express": "4.16.4",
+    "express-session": "^1.15.6",
     "multer": "^1.4.1",
     "mysql2": "^1.6.4",
     "nunjucks": "3.1.7",
-    "sequelize": "4.42.0"
+    "sequelize": "4.42.0",
+    "session-file-store": "^1.2.0"
   },
   "devDependencies": {
     "eslint": "^5.13.0",
