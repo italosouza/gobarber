@@ -1,0 +1,25 @@
+{
+  "sessions": [
+    {
+      "id": 1,
+      "email": "italoasouza@gmail.com",
+      "password": "$2a$08$Dx/Q6NS9oylq82F2SjuD2u0LZJzrh/U/ENZGs76NSws26HHWN/UtG"
+    },
+    {
+      "id": 2
+    },
+    {
+      "email": "italoasouza@gmail.com",
+      "password": "teste",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Tênis de Caminhada Leve Confortável",
+      "price": 179.9,
+      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
+    }
+  ]
+}
